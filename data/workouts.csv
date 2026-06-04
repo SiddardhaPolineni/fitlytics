@@ -1,0 +1,115 @@
+date,exercise,sets,reps,weight_kg,duration_min,calories,muscle_group
+2024-01-01,Bench Press,3,10,60,45,320,Chest
+2024-01-01,Squat,3,8,80,45,320,Legs
+2024-01-03,Deadlift,3,5,100,50,380,Back
+2024-01-03,Pull Up,3,8,0,50,380,Back
+2024-01-05,Bench Press,3,10,62.5,45,325,Chest
+2024-01-05,Overhead Press,3,8,40,45,325,Shoulders
+2024-01-08,Squat,3,8,82.5,50,360,Legs
+2024-01-08,Leg Press,3,12,120,50,360,Legs
+2024-01-10,Deadlift,3,5,105,50,390,Back
+2024-01-10,Bent Over Row,3,10,60,50,390,Back
+2024-01-12,Bench Press,3,10,65,45,330,Chest
+2024-01-12,Dumbbell Fly,3,12,20,45,330,Chest
+2024-01-15,Squat,4,8,85,55,400,Legs
+2024-01-15,Lunges,3,12,30,55,400,Legs
+2024-01-17,Deadlift,3,5,107.5,50,395,Back
+2024-01-17,Pull Up,4,8,0,50,395,Back
+2024-01-19,Bench Press,3,10,67.5,45,335,Chest
+2024-01-19,Overhead Press,3,8,42.5,45,335,Shoulders
+2024-01-22,Squat,4,8,87.5,55,410,Legs
+2024-01-22,Romanian Deadlift,3,10,70,55,410,Legs
+2024-01-24,Deadlift,3,5,110,55,405,Back
+2024-01-24,Bent Over Row,3,10,62.5,55,405,Back
+2024-01-26,Bench Press,4,10,70,50,345,Chest
+2024-01-26,Incline Bench Press,3,10,55,50,345,Chest
+2024-01-29,Squat,4,8,90,55,420,Legs
+2024-01-29,Leg Press,4,12,130,55,420,Legs
+2024-01-31,Deadlift,3,5,112.5,55,415,Back
+2024-02-02,Bench Press,4,10,72.5,50,350,Chest
+2024-02-02,Pull Up,4,8,0,50,350,Back
+2024-02-05,Squat,4,8,92.5,55,425,Legs
+2024-02-05,Overhead Press,3,8,45,50,380,Shoulders
+2024-02-07,Deadlift,3,5,115,55,420,Back
+2024-02-07,Bent Over Row,3,10,65,55,420,Back
+2024-02-09,Bench Press,4,10,75,50,360,Chest
+2024-02-09,Dumbbell Fly,3,12,22,50,360,Chest
+2024-02-12,Squat,4,8,95,60,440,Legs
+2024-02-12,Romanian Deadlift,3,10,75,60,440,Legs
+2024-02-14,Deadlift,3,5,117.5,55,425,Back
+2024-02-14,Pull Up,4,10,0,55,425,Back
+2024-02-16,Bench Press,4,10,77.5,50,365,Chest
+2024-02-16,Overhead Press,3,8,47.5,50,365,Shoulders
+2024-02-19,Squat,4,8,97.5,60,450,Legs
+2024-02-21,Deadlift,4,5,120,60,440,Back
+2024-02-21,Bent Over Row,4,10,67.5,60,440,Back
+2024-02-23,Bench Press,4,10,80,55,375,Chest
+2024-02-26,Squat,4,8,100,60,460,Legs
+2024-02-28,Deadlift,4,5,122.5,60,450,Back
+2024-03-01,Bench Press,4,10,82.5,55,380,Chest
+2024-03-01,Overhead Press,4,8,50,55,380,Shoulders
+2024-03-04,Squat,4,8,102.5,60,465,Legs
+2024-03-04,Leg Press,4,12,140,60,465,Legs
+2024-03-06,Deadlift,4,5,125,60,460,Back
+2024-03-06,Pull Up,4,10,5,60,460,Back
+2024-03-08,Bench Press,4,10,85,55,390,Chest
+2024-03-08,Incline Bench Press,3,10,60,55,390,Chest
+2024-03-11,Squat,5,8,105,65,490,Legs
+2024-03-11,Romanian Deadlift,4,10,80,65,490,Legs
+2024-03-13,Deadlift,4,5,127.5,60,465,Back
+2024-03-13,Bent Over Row,4,10,70,60,465,Back
+2024-03-15,Bench Press,4,10,87.5,55,395,Chest
+2024-03-15,Overhead Press,4,8,52.5,55,395,Shoulders
+2024-03-18,Squat,5,8,107.5,65,500,Legs
+2024-03-20,Deadlift,4,5,130,65,475,Back
+2024-03-20,Pull Up,5,10,5,65,475,Back
+2024-03-22,Bench Press,4,10,90,60,410,Chest
+2024-03-25,Squat,5,8,110,65,510,Legs
+2024-03-25,Leg Press,4,12,150,65,510,Legs
+2024-03-27,Deadlift,4,5,132.5,65,480,Back
+2024-03-27,Bent Over Row,4,10,72.5,65,480,Back
+2024-03-29,Bench Press,5,10,92.5,60,420,Chest
+2024-04-01,Squat,5,8,112.5,70,530,Legs
+2024-04-01,Overhead Press,4,8,55,60,420,Shoulders
+2024-04-03,Deadlift,5,5,135,70,495,Back
+2024-04-05,Bench Press,5,10,95,60,430,Chest
+2024-04-05,Dumbbell Fly,4,12,25,60,430,Chest
+2024-04-08,Squat,5,8,115,70,540,Legs
+2024-04-10,Deadlift,5,5,137.5,70,500,Back
+2024-04-10,Pull Up,5,10,7.5,70,500,Back
+2024-04-12,Bench Press,5,10,97.5,65,445,Chest
+2024-04-12,Overhead Press,4,8,57.5,65,445,Shoulders
+2024-04-15,Squat,5,8,117.5,70,550,Legs
+2024-04-15,Romanian Deadlift,4,10,85,70,550,Legs
+2024-04-17,Deadlift,5,5,140,70,510,Back
+2024-04-17,Bent Over Row,4,10,75,70,510,Back
+2024-04-19,Bench Press,5,10,100,65,460,Chest
+2024-04-22,Squat,5,8,120,75,570,Legs
+2024-04-22,Leg Press,5,12,160,75,570,Legs
+2024-04-24,Deadlift,5,5,142.5,75,525,Back
+2024-04-26,Bench Press,5,10,100,65,460,Chest
+2024-04-26,Overhead Press,5,8,60,65,460,Shoulders
+2024-04-29,Squat,5,8,122.5,75,580,Legs
+2024-05-01,Deadlift,5,5,145,75,535,Back
+2024-05-01,Pull Up,5,12,7.5,75,535,Back
+2024-05-03,Bench Press,5,10,102.5,65,470,Chest
+2024-05-06,Squat,5,8,125,75,590,Legs
+2024-05-06,Bent Over Row,5,10,77.5,75,540,Back
+2024-05-08,Deadlift,5,5,147.5,75,545,Back
+2024-05-10,Bench Press,5,10,105,70,485,Chest
+2024-05-10,Overhead Press,5,8,62.5,70,485,Shoulders
+2024-05-13,Squat,5,8,127.5,80,610,Legs
+2024-05-13,Romanian Deadlift,5,10,90,80,610,Legs
+2024-05-15,Deadlift,5,5,150,80,560,Back
+2024-05-15,Pull Up,5,12,10,80,560,Back
+2024-05-17,Bench Press,5,10,107.5,70,495,Chest
+2024-05-20,Squat,5,8,130,80,620,Legs
+2024-05-20,Leg Press,5,12,170,80,620,Legs
+2024-05-22,Deadlift,5,5,152.5,80,570,Back
+2024-05-22,Bent Over Row,5,10,80,80,570,Back
+2024-05-24,Bench Press,5,10,110,70,505,Chest
+2024-05-24,Overhead Press,5,8,65,70,505,Shoulders
+2024-05-27,Squat,5,8,132.5,80,630,Legs
+2024-05-29,Deadlift,5,5,155,80,580,Back
+2024-05-29,Pull Up,5,12,10,80,580,Back
+2024-05-31,Bench Press,5,10,112.5,70,515,Chest

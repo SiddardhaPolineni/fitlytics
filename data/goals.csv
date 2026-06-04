@@ -1,0 +1,7 @@
+goal_id,goal_type,metric,start_value,target_value,current_value,start_date,target_date,unit
+1,weight_loss,weight,82.5,70.0,66.8,2024-01-01,2024-12-31,kg
+2,strength,Bench Press,60.0,120.0,112.5,2024-01-01,2024-12-31,kg
+3,strength,Squat,80.0,150.0,132.5,2024-01-01,2024-12-31,kg
+4,strength,Deadlift,100.0,180.0,155.0,2024-01-01,2024-12-31,kg
+5,cardio,steps,6000,10000,9400,2024-01-01,2024-12-31,steps/day
+6,body_composition,body_fat,22.0,15.0,17.5,2024-01-01,2024-12-31,percent
