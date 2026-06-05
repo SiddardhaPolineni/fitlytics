@@ -5,7 +5,6 @@
 ![Python](https://img.shields.io/badge/Python-3.13-blue?logo=python&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.28+-red?logo=streamlit&logoColor=white)
 ![Plotly](https://img.shields.io/badge/Plotly-5.15+-purple?logo=plotly&logoColor=white)
-![License](https://img.shields.io/badge/License-MIT-green)
 ![Theme](https://img.shields.io/badge/Theme-Light%20%2F%20Dark-informational)
 
 ---
@@ -13,6 +12,34 @@
 ## 📸 Overview
 
 Fitlytics is a fully local, CSV-powered fitness dashboard with **8 dedicated sections**, responsive design, and automatic light/dark theme support.
+
+---
+
+## 📸 Screenshots
+
+### 🏠 Dashboard
+![Dashboard](assets/screenshots/dashboard.png)
+
+### 🎯 Goal Tracking
+![Goal Tracking](assets/screenshots/goal_tracking.png)
+
+### 🔥 Streaks
+![Streaks](assets/screenshots/streaks.png)
+
+### 💚 Recovery Score
+![Recovery Score](assets/screenshots/recovery_score.png)
+
+### 🏆 Personal Records
+![Personal Records](assets/screenshots/personal_records.png)
+
+### 📊 Training Volume
+![Training Volume](assets/screenshots/training_volume.png)
+
+### ⚖️ Weight Trends
+![Weight Trends](assets/screenshots/weight_trends.png)
+
+### 📅 Calendar Heatmap
+![Calendar Heatmap](assets/screenshots/calendar_heatmap.png)
 
 ---
 
@@ -195,12 +222,6 @@ This app was built iteratively through the following prompts:
 11. Fix past target dates in Goal Tracking
 12. Update health metrics (start weight 91.7 kg, Jan–Jun 2026)
 13. Fix goal cache so new goals reflect immediately
-
----
-
-## 📄 License
-
-MIT — free to use, modify, and distribute.
 
 ---
 

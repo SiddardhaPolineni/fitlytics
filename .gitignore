@@ -34,5 +34,5 @@ Thumbs.db
 .ipynb_checkpoints/
 *.ipynb
 
-# Logs
-*.log
+# Assets — keep screenshots, ignore generated files
+assets/generated/
