@@ -5,4 +5,4 @@ goal_id,goal_type,metric,start_value,target_value,current_value,start_date,targe
 4,strength,Deadlift,100,180,155,1/1/2026,12/31/2026,kg
 5,cardio,steps,6000,10000,9400,1/1/2026,12/31/2026,steps/day
 6,body_composition,body_fat,22,15,17.5,1/1/2026,12/31/2026,percent
-7,HIIT,Endurance,3,10,5,1/1/2026,12/31/2026,on scale of 10
+7,HIIT,Endurance,3,10,7,1/1/2026,12/31/2026,on scale of 10
