@@ -15,31 +15,8 @@ Fitlytics is a fully local, CSV-powered fitness dashboard with **8 dedicated sec
 
 ---
 
-## 📸 Screenshots
-
 ### 🏠 Dashboard
 ![Dashboard](assets/screenshots/dashboard.png)
-
-### 🎯 Goal Tracking
-![Goal Tracking](assets/screenshots/goal_tracking.png)
-
-### 🔥 Streaks
-![Streaks](assets/screenshots/streaks.png)
-
-### 💚 Recovery Score
-![Recovery Score](assets/screenshots/recovery_score.png)
-
-### 🏆 Personal Records
-![Personal Records](assets/screenshots/personal_records.png)
-
-### 📊 Training Volume
-![Training Volume](assets/screenshots/training_volume.png)
-
-### ⚖️ Weight Trends
-![Weight Trends](assets/screenshots/weight_trends.png)
-
-### 📅 Calendar Heatmap
-![Calendar Heatmap](assets/screenshots/calendar_heatmap.png)
 
 ---
 
