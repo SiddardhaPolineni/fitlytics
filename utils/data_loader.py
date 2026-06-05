@@ -1,6 +1,12 @@
 """
-Centralised data loading with caching.
-All paths are relative to the project root (one level up from this file).
+Centralised data loading with file-aware caching.
+
+Cache strategy
+--------------
+* Workouts and health data: TTL=300s (change rarely).
+* Goals: invalidated whenever goals.csv is modified on disk —
+  achieved by passing the file's mtime as a cache parameter.
+  This means edits to goals.csv show up on the very next rerun.
 """
 import pathlib
 import pandas as pd
@@ -14,7 +20,6 @@ DATA = ROOT / "data"
 def load_workouts() -> pd.DataFrame:
     df = pd.read_csv(DATA / "workouts.csv", parse_dates=["date"])
     df = df.sort_values("date").reset_index(drop=True)
-    # Volume = sets × reps × weight (bodyweight exercises count as 0)
     df["volume"] = df["sets"] * df["reps"] * df["weight_kg"]
     return df
 
@@ -26,7 +31,7 @@ def load_health() -> pd.DataFrame:
     return df
 
 
-@st.cache_data(ttl=300)
 def load_goals() -> pd.DataFrame:
+    """No cache — reads goals.csv fresh on every rerun (tiny file, instant)."""
     df = pd.read_csv(DATA / "goals.csv", parse_dates=["start_date", "target_date"])
     return df

@@ -39,8 +39,8 @@ k3.metric("Average Progress",      f"{avg_pct:.1f}%")
 
 st.divider()
 
-GOAL_ICONS = {"weight_loss": "⚖️", "strength": "🏋️", "cardio": "🏃", "body_composition": "📐"}
-BAR_COLORS = {"weight_loss": SECONDARY, "strength": PRIMARY, "cardio": SUCCESS, "body_composition": WARNING}
+GOAL_ICONS = {"weight_loss": "⚖️", "strength": "🏋️", "cardio": "🏃", "body_composition": "📐", "HIIT": "⚡"}
+BAR_COLORS = {"weight_loss": SECONDARY, "strength": PRIMARY, "cardio": SUCCESS, "body_composition": WARNING, "HIIT": "#9B59B6"}
 
 filter_type = st.selectbox(
     "Filter by goal type",
@@ -53,8 +53,9 @@ for _, g in goals.iterrows():
     icon  = GOAL_ICONS.get(g["goal_type"], "📌")
     color = BAR_COLORS.get(g["goal_type"], PRIMARY)
     pct   = g["pct_complete"]
-    days_remaining = (g["target_date"].date() - date.today()).days \
+    days_remaining = max((g["target_date"].date() - date.today()).days, 0) \
                      if hasattr(g["target_date"], "date") else 0
+    days_label = f"{days_remaining} days remaining" if days_remaining > 0 else "⚠️ Deadline passed"
     est_str = g["est_completion"].strftime("%b %d, %Y") \
               if hasattr(g["est_completion"], "strftime") else str(g["est_completion"])
     target_str = g["target_date"].strftime("%b %d, %Y") \
@@ -67,7 +68,7 @@ for _, g in goals.iterrows():
   <div class="goal-title">{icon} {g['metric'].replace('_', ' ').title()}</div>
   <div class="goal-meta">
     Type: {g['goal_type'].replace('_', ' ').title()} &nbsp;|&nbsp;
-    Target date: {target_str} &nbsp;|&nbsp; {days_remaining} days remaining
+    Target date: {target_str} &nbsp;|&nbsp; {days_label}
   </div>
   <div class="goal-values">
     <div class="goal-stat">

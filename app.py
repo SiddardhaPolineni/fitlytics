@@ -80,13 +80,13 @@ kpis = [
      f"Best: {wo_best} days"),
 
     ("🏆", f"{len(recent_prs)}",        "New PRs (30d)",
-     f"{len(prs[prs['is_all_time_pr']])} all-time records"),
+     f"{len(prs[prs['is_all_time_pr']])} all-time"),
 
-    ("📊", f"{this_week_vol:,.0f} kg", "This Week Vol",
+    ("📊", f"{this_week_vol/1000:.1f}k kg", "This Week Vol",
      f'<span class="{vol_cls}">{vol_sym} {abs(vol_change_pct):.1f}%</span>'),
 
-    ("🎯", f"{avg_goals_pct:.1f}%",    "Avg Goal Progress",
-     f"{(goals['pct_complete']>=100).sum()} goals completed"),
+    ("🎯", f"{avg_goals_pct:.1f}%",    "Goal Progress",
+     f"{(goals['pct_complete']>=100).sum()} completed"),
 
     ("😴", f"{sl_cur} days",           "Sleep Streak",
      "7+ h nights"),
